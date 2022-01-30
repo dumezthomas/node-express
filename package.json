@@ -1,13 +1,14 @@
 {
-  "name": "node-http-server",
+  "name": "node-express",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "express": "4.17.2"
+    "express": "4.17.2",
+    "morgan": "1.10.0"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
